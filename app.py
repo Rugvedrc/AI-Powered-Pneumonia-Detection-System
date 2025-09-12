@@ -252,7 +252,7 @@ def main():
     # Display metrics in a nice table
     st.dataframe(
         df_metrics,
-        width='stretch',
+        use_container_width=True,
         hide_index=True
     )
 
@@ -306,10 +306,10 @@ def main():
         with col1:
             st.markdown("### 📸 Original X-ray Image")
             if isinstance(uploaded_image, str):
-                st.image(uploaded_image, width='stretch')
+                st.image(uploaded_image, use_container_width=True)
             else:
-                st.image(uploaded_image, width='stretch')
-        
+                st.image(uploaded_image, use_container_width=True)
+
         # Predict button
         if st.button("🔍 Analyze X-ray", type="primary"):
             with st.spinner("🧠 Analyzing X-ray image..."):
@@ -347,7 +347,7 @@ def main():
                         
                         with col2:
                             st.markdown("### 🔥 Grad-CAM Visualization")
-                            st.image(overlay_img, width='stretch')
+                            st.image(overlay_img, use_container_width=True)
                             st.caption("Red regions show where the AI focused its attention")
                     else:
                         with col2:
@@ -419,7 +419,7 @@ def main():
                     ))
 
                     fig.update_layout(height=300)
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True)
 
                     # Add explanation below the meter
                     if prediction == "PNEUMONIA":
