@@ -2,7 +2,7 @@ streamlit==1.35.0
 tensorflow==2.15.0
 numpy==1.26.4
 matplotlib==3.8.4
-opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
 pandas==2.2.2
 pillow==10.3.0
 plotly==5.22.0
