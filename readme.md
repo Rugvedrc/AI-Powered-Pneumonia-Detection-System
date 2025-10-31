@@ -221,8 +221,7 @@ If you use this work in your research, please cite:
 
 ## 🔬 Training Pipeline
 
-**Note:** The training pipeline and dataset preparation code are not publicly available as this is ongoing research. However, the **trained model is fully available** and ready for inference and deployment.
-
+**Note:** The training pipeline and dataset preparation code are not publicly available as this is ongoing research.
 If you need access to the training pipeline for research collaboration or educational purposes, please contact me directly at [rugvedchandekar@gmail.com](mailto:rugvedchandekar@gmail.com).
 
 ## ⚖️ Medical Disclaimer
