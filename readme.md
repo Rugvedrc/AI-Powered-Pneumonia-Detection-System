@@ -9,7 +9,7 @@
 
 > **Advanced uncertainty-aware attention mechanism achieving 96.33% accuracy in pneumonia detection from chest X-rays**
 
-**📄 Paper Status:** Under review at **IEEE CICT 2025**  
+**📄 Paper Status:** Published at **2026 IEEE 5th World Conference on Applied Intelligence and Computing (AIC)** · [IEEE Xplore](https://ieeexplore.ieee.org/document/11717041) · DOI: [10.1109/AIC70896.2026.11717041](https://doi.org/10.1109/AIC70896.2026.11717041)  
 **Title:** *Uncertainty-Aware Attention Mechanism for Pneumonia Detection Using Chest X-Rays*  
 **Authors:** Archana W. Bhade, Smita M. Chavan, Rugved Rajesh Chandekar, Dnyanesh Milind Deshmukh, Aditya Keshav Magar
 
@@ -201,7 +201,7 @@ AI-Powered-Pneumonia-Detection-System/
 - Dnyanesh Milind Deshmukh (Government College of Engineering, Aurangabad)
 - Aditya Keshav Magar (Government College of Engineering, Aurangabad)
 
-**Status:** Under review at **IEEE CICT 2025**
+**Status:** Published, 2026 IEEE 5th World Conference on Applied Intelligence and Computing (AIC), pp. 1010 to 1015. DOI: [10.1109/AIC70896.2026.11717041](https://doi.org/10.1109/AIC70896.2026.11717041)
 
 **Abstract:** This work proposes an uncertainty-aware deep learning framework integrating spatial and channel-based attention mechanisms with Monte Carlo Dropout for pneumonia detection from chest X-rays. The attention-augmented DenseNet121 model achieves 96.33% accuracy, 96.26% sensitivity, 96.53% specificity, 97.45% F1-score, and 99.42% ROC-AUC, demonstrating superior performance and explainability for clinical decision support.
 
@@ -210,12 +210,13 @@ AI-Powered-Pneumonia-Detection-System/
 If you use this work in your research, please cite:
 
 ```bibtex
-@inproceedings{bhade2025uncertainty,
+@inproceedings{bhade2026uncertainty,
   title={Uncertainty-Aware Attention Mechanism for Pneumonia Detection Using Chest X-Rays},
-  author={Bhade, Archana W. and Chavan, Smita M. and Chandekar, Rugved Rajesh and Deshmukh, Dnyanesh Milind and Magar, Aditya Keshav},
-  booktitle={IEEE International Conference on Computational Intelligence and Computing Technologies (CICT)},
-  year={2025},
-  note={Under Review}
+  author={Bhade, Archana W. and Chandekar, Rugved Rajesh and Deshmukh, Dnyanesh Milind},
+  booktitle={2026 IEEE 5th World Conference on Applied Intelligence and Computing (AIC)},
+  year={2026},
+  pages={1010--1015},
+  doi={10.1109/AIC70896.2026.11717041}
 }
 ```
 
